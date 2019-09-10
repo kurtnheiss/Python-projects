@@ -8,7 +8,7 @@ def elapsed_time(f):
         t1 = time.time()
         f()
         t2 = time.time()
-        print(f'Elapsed time: {(t2 - t1) * 1000} ms')
+        print(f'Elapsed time: {(t2 - t1) * 2000} ms')
     return wrapper
 
 
